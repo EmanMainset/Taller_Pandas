@@ -73,23 +73,22 @@ Las opciones se usan en orden: primero cargar (1), luego limpiar (2), después u
 
 Las funciones que aún no completaste no dan error: devuelven los datos sin cambios, así que el menú siempre funciona.
 
+## Autor
+
+**Nombre:** Emanuel Restrepo Ceballos
+
+## Respuestas al desafío final
+
+Resultados tomados de la opción 4 del menú (`python main.py`, opciones 1 -> 2 -> 3 -> 4).
+
+1. **¿Qué categoría genera más ingresos?** Tecnologia, con $14.290.000 (Hogar $3.653.000, Papeleria $749.000, Accesorios $484.000). *Criterio:* suma de `total` por categoría.
+2. **¿Qué canal vende más?** Online: 35 ventas y $14.669.000, frente a Tienda con 33 ventas y $4.507.000. *Criterio:* ingresos (y también gana en cantidad de ventas).
+3. **¿Los clientes VIP compran más que los Regulares?** Sí, aunque con diferencia pequeña. VIP: 1,21 compras y $336.083 de gasto por cliente; Regular: 1,08 compras y $308.611 por cliente. *Criterio:* promedio por cliente (24 VIP vs 36 Regular), no totales.
+4. **¿Qué método de pago es el más usado?** Efectivo, con 30 ventas (Tarjeta 25, Transferencia 13). *Criterio:* cantidad de ventas por método de pago.
+5. **¿Cuáles son los cinco clientes con más compras?** Todos con 2 compras; el desempate es el gasto total: Nicolas Cardona ($2.515.000), Matias Rodriguez ($1.278.000), Mia Quintero ($1.090.000), Luna Montoya ($1.007.000) y Luis Perez ($730.000). *Criterio:* número de compras y gasto total como desempate.
+
+**Bonus:** abril de 2026 fue el mes que más vendió (60 ventas, $18.234.000) frente a mayo de 2026 (8 ventas, $942.000).
+
 ## Entregables
 
-Consulta el documento del taller (`guia_Taller_Pandas.pdf`) para ver el detalle de cada entregable y la rúbrica. En resumen:
-
-- Entregable 0: pantallazo del ambiente virtual activo y de la instalación.
-- Entregable 1: pantallazos de `.shape`, `.info()` y `.describe()`, y salida de `exploracion.py`.
-- Entregable 2: limpieza, con pantallazos antes y después y explicación.
-- Entregable 3: validación, merge y análisis, con pantallazos de las opciones 3 y 4.
-- Entregable 4: los dos gráficos (`.png`) y el código de `graficos.py`.
-- Desafío final: respuestas a las cinco preguntas, con el criterio usado en cada una.
-
-Para entregar, agrega al final de este `README.md` una sección con tu nombre y tus respuestas a las preguntas del desafío. Sube tus cambios al repositorio y envía el enlace por el formulario de entrega. La entrega es individual.
-
-## Preguntas de negocio
-
-1. ¿Qué categoría genera más ingresos?
-2. ¿Qué canal vende más?
-3. ¿Los clientes VIP compran más que los Regulares?
-4. ¿Qué método de pago es el más usado?
-5. ¿Cuáles son los cinco clientes con más compras?
+El detalle (explicaciones, evidencias y código) está en `INFORME_ENTREGABLES.md`. Las capturas están en la carpeta `images/` y los gráficos en `images/graficos/`.
